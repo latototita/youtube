@@ -78,6 +78,5 @@ def lastpage(request):
         context={'form':form}
         return render(request,'first.html',context)
 def last(request):
-   
     messages.success(request, 'Application Submited Successfully.Wait Until You are Contacted Through Email.')
     return redirect('index')
