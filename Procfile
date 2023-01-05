@@ -1,0 +1,1 @@
+web: gunicorn scumtrader.wsgi --log-file -

@@ -1,0 +1,5 @@
+python-dotenv==0.15.0
+gunicorn
+django_heroku
+Django==3.2
+
